@@ -1,341 +1,165 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uber</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>IndeVets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="container">
-                <ul class="menu">
-                    <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
-                </ul>
-            </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <div class="menu">
+                    <p class="menu__logo"><a href="#" class="menu__link">IndeVets</a></p>
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__link">Veterinarians</a></li>
+                        <li><a href="#" class="menu__link">Hospitals</a></li>
+                        <li><a href="#" class="menu__link">Why IndeVets?</a></li>
+                    </ul>
+                    <a href="#" class="menu__button"><img src="icons/login.png" alt="login"></a>
+                </div>
             </div>
         </nav>
         <div class="subheader">
             <div class="container">
-                <div class="row">
-                    <div class="col-6 col-md-4 offset-md-1">
-                        <a href="#" class="subheader_logo"><img src="icons/logo.png" alt="uber_logo"></a>
-                        <div class="subheader_official">Официальный партнер Uber в Москве</div>
+                <div class="subheader__block">
+                    <div class="subheader__descr">
+                        <h1 class="subheader__title">Veterinary staffing done right.</h1>
+                        <p class="subheader__text">IndeVets is on a mission to make veterinary medicine better. We unite the nation’s top veterinarians and animal hospitals to deliver what matters most in animal care –– happy, healthy doctors performing at their best.</p>
                     </div>
-                    <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
-                        <div class="subheader_call">Звоните нам ежедневно</div>
-                        <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
-                    </div>
-                    <div class="col-6 col-md-3 col-lg-2">
-                        <a href="tel:84957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
-                        <button class="subheader_button">заказать звонок</button>
-                    </div>
+                    <img src="img/woman.png" alt="woman_png" class="subheader__img">
                 </div>
             </div>
         </div>
+        
     </header>
-
     <main>
-        <section class="promo">
+        <section class="promo container">
+                <div class="promo__block">
+                    <img src="img/veterinarians.png" alt="veterinarians_png" class="promo__img">
+                    <div class="promo__descr">
+                        <h2 class="promo__title">Veterinarians</h2>
+                        <div class="promo__text"><p>Apply to become an IndeVet</p></div>
+                    </div>
+                </div>
+                <div class="promo__block">
+                    <img src="img/hospitals.png" alt="hospitals_png" class="promo__img">
+                    <div class="promo__descr">
+                        <h2 class="promo__title">Hospitals</h2>
+                        <div class="promo__text"><p>Become an IndeVets partner</p></div>
+                    </div>
+                </div>
+        </section>
+        <section class="works">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
-                        <h1 class="promo_header">КОМПАНИЯ UBER PARTNERS!</h1>
-                        <h2 class="promo_subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
-                        <p class="promo_descr">
-                        Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место среди таксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система.Помимо выполненной работы по заказам, компания начисляет бонусы за пиковое время.
-                        <br><br>
-                        Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве.  Водители у нас зарабатывают от 80000- 120000 в месяц.</p>
-                        <button class="promo_button">ОТПРАВИТЬ ЗАЯВКУ!</button>
+                <h3 class="title">Let’s start at the beginning</h3>
+                <h2 class="subtitle">How IndeVets Works</h2>
+                <div class="works__block">
+                    <img src="img/step-one.png" alt="step-one_png" class="works__img">
+                    <div class="works__descr">
+                        <h3 class="works__title">Step one...</h3>
+                        <h2 class="works__subtitle">We hire great vets.</h2>
+                        <p class="works__text">
+                            Not just any doctor can become an IndeVet. We thoroughly vet and hire only the best, highly qualified doctors. They become a part of our team, earn market-leading pay and benefits, and gain the freedom to choose when and where they work.
+                        </p>
+                    </div>
+                </div>
+                <div class="works__block">
+                    <div class="works__descr">
+                        <h3 class="works__title">Next...</h3>
+                        <h2 class="works__subtitle">We partner with the best workplaces.</h2>
+                        <p class="works__text">
+                            We’ve built partnerships with more than 800 forward-thinking, best-in-class hospitals. We expect a lot from our vets, so the same applies to our hospitals. We partner with hospitals that not only have high medical standards, but also have a commitment to maintaining a healthy workplace for staff and patients.
+                        </p>
+                    </div>
+                    <img src="img/next.png" alt="next_png" class="works__img">
+                </div>
+                <div class="works__block">
+                    <img src="img/result.png" alt="result_png" class="works__img">
+                    <div class="works__descr">
+                        <h3 class="works__title">The result?</h3>
+                        <h2 class="works__subtitle">Happy vets. Happy hospitals. Better medicine.</h2>
+                        <p class="works__text">
+                            When doctors are in control of their schedules, they’re happier. Same goes for hospital teams who can breathe easier about their staffing. Together, our doctors and hospital partners are making the world of veterinary medicine a better, happier place.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="reasons">
+        <section class="mission">
             <div class="container">
-                <div class="label">преимущества</div>
-                <div class="title">8 причин начать работать с нами</div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="reasons_block">
-                            <div class="reasons_round"><img src="icons/reasons/1_Rectangle.png" alt="1"></div>
-                            <div class="reasons_descr">
-                                <div class="reasons_subtitle">Никаких наличных, оплата происходит автоматически</div>
-                                <div class="reasons_text">Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="reasons_block">
-                            <div class="reasons_round"><img src="icons/reasons/2_Rectangle.png" alt="2"></div>
-                            <div class="reasons_descr">
-                                <div class="reasons_subtitle">Комиссия 8% + БОНУСЫ</div>
-                                <div class="reasons_text">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="reasons_block">
-                            <div class="reasons_round"><img src="icons/reasons/3_Rectangle.png" alt="3"></div>
-                            <div class="reasons_descr">
-                                <div class="reasons_subtitle">Высокий доход с гарантированными выплатами</div>
-                                <div class="reasons_text">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="reasons_block">
-                            <div class="reasons_round"><img src="icons/reasons/4_Rectangle.png" alt="4"></div>
-                            <div class="reasons_descr">
-                                <div class="reasons_subtitle">Работа в удобное время, никаких графиков</div>
-                                <div class="reasons_text">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в выходные или праздничные дни! </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="reasons_block">
-                            <div class="reasons_round"><img src="icons/reasons/5_Rectangle.png" alt="5"></div>
-                            <div class="reasons_descr">
-                                <div class="reasons_subtitle">Комфортное, прозрачное и простое подключение</div>
-                                <div class="reasons_text">Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="reasons_block">
-                            <div class="reasons_round"><img src="icons/reasons/6_Rectangle.png" alt="6"></div>
-                            <div class="reasons_descr">
-                                <div class="reasons_subtitle">Всегда большое количество заказов</div>
-                                <div class="reasons_text">Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="reasons_block">
-                            <div class="reasons_round"><img src="icons/reasons/7_Rectangle.png" alt="7"></div>
-                            <div class="reasons_descr">
-                                <div class="reasons_subtitle">Круглосуточная поддержка</div>
-                                <div class="reasons_text">В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="reasons_block">
-                            <div class="reasons_round"><img src="icons/reasons/8_Rectangle.png" alt="8"></div>
-                            <div class="reasons_descr">
-                                <div class="reasons_subtitle">Без шашечек и наклеек</div>
-                                <div class="reasons_text">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</div>
-                            </div>
-                        </div>
+                <div class="mission__block">
+                    <img src="img/mission.png" alt="mission_png" class="mission__img">
+                    <div class="mission__descr">
+                        <h3 class="title">Who We Are</h3>
+                        <h2 class="subtitle">Our Mission</h2>
+                        <p class="mission__text">
+                            Our team is united by a mission to make veterinary medicine better. We’ve been through the long rotations, the office drama, and the last-minute schedule changes. It drove the joy out of our jobs and, more importantly, out of our lives. So we took it upon ourselves to make a change.
+                        </p>
+                        <a href="#" class="mission__button"><img src="icons/button_mission.png" alt="Why IndeVets?"></a>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="mobile">
+        <section class="sounds">
             <div class="container">
-                <div class="label">возможности</div>
-                <h2 class="title">мобильное приложение убер</h2>
-                <div class="subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="mobile_item mobile_item_1">
-                            <div class="mobile_item_subtitle">
-                                оформление заказа одним касанием
-                            </div>
-                            <div class="mobile_item_plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mobile_item mobile_item_2">
-                            <div class="mobile_item_subtitle">
-                                надежная подача
-                            </div>
-                            <div class="mobile_item_plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mobile_item mobile_item_3">
-                            <div class="mobile_item_subtitle">
-                                прозрачные цены
-                            </div>
-                            <div class="mobile_item_plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mobile_item mobile_item_4">
-                            <div class="mobile_item_subtitle">
-                                безналичная оплата
-                            </div>
-                            <div class="mobile_item_plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mobile_item mobile_item_5">
-                            <div class="mobile_item_subtitle">
-                                обратная связь
-                            </div>
-                            <div class="mobile_item_plus"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mobile_item mobile_item_6">
-                            <div class="mobile_item_subtitle">
-                                разделить стоимость поездки
-                            </div>
-                            <div class="mobile_item_plus"></div>
+                <div class="sounds__block">
+                    <img src="img/sounds.png" alt="sounds-pretty_png" class="sounds__img">
+                    <div class="sounds__descr">
+                        <h2 class="sounds__title">Sounds pretty good, right? Let’s do this.</h2>
+                        <div class="sounds__sub">
+                            <p class="sounds__text">I want to be an IndeVet. Take me to the application page!</p>
+                            <p class="sounds__text">We want to be one of your awesome hospital partners.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="choice">
-            <div class="container">
-                <div class="black"></div>
-                <div class="label label_white">Возможности</div>
-                <h2 class="title title_white">Выбор - отличная штука!</h2>
-                <div class="subtitle subtitle_white">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
-
-                <img src="img/car/car_uber.png" alt="car_img">
-                <div class="choice_descr">
-                    Машины на каждый день.<br>
-                    Лучше, быстрее и дешевле, чем такси
-                </div>
-            </div>
-        </section>
-
-        <section class="require">
-            <div class="container">
-                <div class="label">возможности</div>
-                <h2 class="title">условия и требования</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="require_block require_block_nmb">
-                            <div class="require_title">УСЛОВИЯ: со своим авто:</div>
-                            <ul class="require_list">
-                            <li>Подключаем к системе UBER  под 10%.</li>
-                            <li>Ни каких взносов  0%!</li>
-                            <li>Можем подключать удаленно без приезда в офис</li>
-                            <li>ИП не требуется</li>
-                            <li>Заказы распределяются без учета рейтинга ближай-
-                                шим водителям</li>
-                            <li>Работа только по безналичному расчету</li>
-                            <li>Деньги перечисляем на карту водителю или наличны-
-                                ми в офисе</li>
-                             </ul>
-                            <div class="require_descr">В день заработок составляет 7000-12000р + бонус 3000т рублей</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="require_block require_block_nmb">
-                            <div class="require_title">УСЛОВИЯ: на авто компании:</div>
-                            <ul class="require_list">
-                            <li>Предоставляем авто без залога</li>
-                            <li>Без ежедневных выплат по аренде</li>
-                            <li>Среда пятница и суббота работа на компанию осталь-
-                                ные дни вы работаете на себя</li>
-                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="require_block require_block_nmb warning">
-                            <div class="require_title">ТРЕБОВАНИЕ:</div>
-                            <ul class="require_list">
-                            <li>Наличие автомобиля без рекламы</li>
-                            <li>Автомобиль не должен быть желтый и не с желтыми 
-                                номерами</li>
-                            <li>Машина не старше 3 лет</li>
-                            <li>Стаж вождения не менее 3 лет</li>
-                            <li>Девайс на системе андроид 4.0 и выше(самсунг)</li>
-                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="require_block require_block_nmb warning">
-                            <div class="require_title">ДОКУМЕНТЫ:</div>
-                            <ul class="require_list">
-                            <li>Права 2 стороны</li>
-                            <li>Паспорт лицевая сторона</li>
-                            <li>СтС</li>
-                            <li>Лицензия (если есть)</li>
-                            <li>Номер телефона</li>
-                            <li>Номер карты для перечисления денег(указать в письме)!</li>
-                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="world">
-            <div class="container">
-                <div class="label label_white">города</div>
-                <h2 class="title title_white">По всему миру</h2>
-                <div class="subtitle subtitle_white">Мы в вашем городе и по всему миру</div>
-                <a href="#" class="cities">посмотреть все города</a>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer_divider"></div>
-        <div class="footer_wrapper">
-            <div>
-                <div class="footer_social">
-                    <a href="#" class="footer_social_item">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="footer_social_item">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="footer_social_item">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#" class="footer_social_item">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div class="footer_links">
-                    <div class="footer_links_main">
-                        <a href="#">на главную</a>
-                        <a href="#">города</a>
-                        <a href="#">для водителей</a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__block">
+                    <div class="footer__info">
+                        <p class="footer__title">Veterinarians</p>
+                        <p class="footer__text"><a href="#" class="footer__link">Explore IndeVets</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">Become an IndeVet</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">FAQs for Veterinarians</a></p>
                     </div>
-                    <div class="footer_links_sub">
-                        <a href="#">центр поддержки</a>
-                        <a href="#">вакансии</a>
-                        <a href="#">разработчики</a>
-                        <a href="#">блог</a>
-                        <a href="#">о нас</a>
+                    <div class="footer__info  footer__links">
+                        <p class="footer__title">Hospitals</p>
+                        <p class="footer__text"><a href="#" class="footer__link">Partnering with IndeVets</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">Become a Partner</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">Frequently Asked Questions</a></p>
                     </div>
-                    <a href="#" class="footer_links_lang">русский</a>
+                    <div class="footer__info footer__row">
+                        <p class="footer__text"><a href="#" class="footer__link">Why IndeVets?</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">Blog</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">Jobs</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">Contact Us</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">Login</a></p>
+                        <p class="footer__text"><a href="#" class="footer__link">Privacy Policy</a></p>
+                    </div>
+                    <p class="footer__subtitle">© IndeVets 2021</p>
                 </div>
-            </div>
-            <div>
-                <div class="footer_mobile">
-                    <a href="#"><img src="icons/footer/app_icon.png" alt="App icon"></a>
+                <div class="footer__block">
+                    <img src="img/info.png" alt="info_img" class="footer__img">
+                    <div class="footer__info footer__address">
+                        <p class="footer__title">Find Us</p>
+                        <p class="footer__text">990 Spring Garden Street <br> Suite 402 <br> Philadelphia, PA 19123</p>
+                        <div class="footer__call">
+                            <p class="footer__text">(833) IndeVets</p>
+                            <p class="footer__text"><a href="tel:84957970988" class="footer__link">(833) 463-3838</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
-    
-    <script src="js/script.js"></script>
 </body>
 </html>
