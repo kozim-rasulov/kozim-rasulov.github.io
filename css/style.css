@@ -161,9 +161,6 @@ footer {
     .logo {
         display: none;
     }
-    nav {
-	height:60px;
-	}
     .menu a {
         font-size: 12px;
         padding: 0 20px;
