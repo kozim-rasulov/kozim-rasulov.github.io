@@ -1,0 +1,246 @@
+.container
+    max-width: 1140px
+    width: 100%
+    padding: 0 15px
+    margin: 0 auto
+header
+    min-height: 799px
+    background: #284854
+nav
+    background: $second_color
+    padding: 23px 0
+    width: 100%
+    transform: translateY(22px)
+.hamburger
+    display: none
+.menu 
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__logo
+        a
+            font-weight: 400
+            font-size: 30px
+            color: #FFFFFF
+    &__list
+        display: flex
+        list-style-type: none
+    &__link
+        margin-left: 60px
+        font-weight: 400
+        font-size: 18px
+        text-decoration: none
+        color: #284854
+        transition: 0.3s all
+        &:hover
+            color: $third_color
+        &:active
+            color: orange
+    &__button
+        padding: 4px 20px
+        background-color: transparent
+        border: 1px solid #fff
+        font-weight: 400
+        font-size: 14px
+        color: #fff
+        cursor: pointer
+        &:hover
+            color: $third_color
+            border-color: $third_color
+            font-size: 102%
+        &:active
+            color: orange
+            border-color: orange
+.subheader
+    padding: 120px 0
+    &__block
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__img
+        max-width: 314px
+        width: 100%
+    &__descr
+        width: 712px
+    &__title
+        font-weight: 400
+        font-size: 85px
+        line-height: 102px
+        color: $main_color
+    &__text 
+        font-weight: 400
+        font-size: 20px
+        line-height: 28px
+        color: #FFFFFF
+        width: 542px
+        margin-top: 60px   
+.promo
+    display: flex
+    justify-content: space-between
+    margin-top: -80px
+    &__block
+        display: flex
+        align-items: center
+        padding: 45px 30px
+        width: 506px
+        background: #F4F6F0
+        border-radius: 4px
+    &__img
+        max-width: 119px
+        width: 100%
+    &__descr
+        margin-left: 38px
+    &__title
+        font-weight: 400
+        font-size: 37px
+        color: $main_color
+    &__text
+        width: 188px
+        font-weight: 400
+        font-size: 20px
+        line-height: 27px
+        color: $second_color
+        margin-top: 9px
+.works
+    padding: 174px 0 80px 0
+    &__block
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        margin-top: 80px
+    &__img
+        max-width: 285px
+        width: 100%
+    &__descr
+        width: 510px
+    &__title
+        @include title
+    &__subtitle
+        @include subtitle
+    &__text
+        @include text
+.title
+    font-weight: 700
+    font-size: 22px
+    text-align: center
+    color: $second_color
+.subtitle
+    font-weight: 700
+    font-size: 55px
+    text-align: center
+    color: #284854
+    margin: 5px 0 110px
+.mission
+    background: #F4F6F0
+    padding: 78px 0 127px
+    &__block
+        display: flex
+        justify-content: space-around
+        align-items: center
+    &__img
+        max-width: 450px
+        width: 100%
+    &__descr
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        width: 504px
+        .subtitle
+            margin: 5px 0 31px
+    &__text 
+        font-weight: 400
+        font-size: 18px
+        line-height: 32px
+        color: #284854
+    &__button
+        margin-top: 50px
+        padding: 8px 5px
+        background-color: transparent
+        border: 1px solid $second_color
+        font-weight: 400
+        font-size: 16px
+        color: $second_color
+        cursor: pointer
+        &:hover
+            color: $main_color
+            border-color: $main_color
+        &:active
+            color: orange
+            border-color: orange
+.sounds
+    padding: 86px 0
+    background: $main_color
+    &__block
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+    &__img
+        max-width: 240px
+        width: 100%
+    &__descr
+        width: 581px
+    &__title
+        font-weight: 400
+        font-size: 55px
+        line-height: 64px
+        color: #FFFFFF
+    &__sub
+        display: flex
+        justify-content: space-between
+        margin-top: 57px
+    &__text
+        width: 250px
+        font-weight: 400
+        font-size: 20px
+        line-height: 27px
+        color: #FFFFFF
+.footer
+    padding: 45px 0
+    &__wrapper
+        display: flex
+    &__block
+        display: flex
+        flex-wrap: wrap
+        width: 50%
+    &__title
+        font-weight: 400
+        font-size: 13px
+        letter-spacing: 2px
+        text-transform: uppercase
+        color: #284854
+        margin-bottom: 25px
+    &__text
+        padding-bottom: 18px
+        font-weight: 400
+        font-size: 14px
+        margin-right: 35px
+        color: $second_color
+    &__link
+        color: $second_color
+        text-decoration: none
+        transition: 0.3s all
+        &:hover 
+            color: $third_color
+        &:active
+            color: orange
+    &__links
+        margin-left: 110px
+        
+    &__row
+        display: flex
+        margin-top: 60px
+    &__subtitle
+        margin-top: 15px
+        font-weight: 400
+        font-size: 13px
+        color: #284854
+    &__img
+        max-width: 230px
+        height: 210px
+        width: 100%
+    &__address
+        margin-left: 55px
+    &__call
+        margin-top: 25px
+        line-height: 5px
+    

@@ -1,0 +1,894 @@
+/* line 1, ../IndeVets/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../IndeVets/src/sass/_general.sass */
+* .container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* line 6, ../IndeVets/src/sass/_general.sass */
+* header {
+  min-height: 799px;
+  background: #284854;
+}
+
+/* line 9, ../IndeVets/src/sass/_general.sass */
+* nav {
+  background: #60C1BD;
+  padding: 23px 0;
+  width: 100%;
+  transform: translateY(22px);
+}
+
+/* line 14, ../IndeVets/src/sass/_general.sass */
+* .hamburger {
+  display: none;
+}
+
+/* line 16, ../IndeVets/src/sass/_general.sass */
+* .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 21, ../IndeVets/src/sass/_general.sass */
+* .menu__logo a {
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+/* line 25, ../IndeVets/src/sass/_general.sass */
+* .menu__list {
+  display: flex;
+  list-style-type: none;
+}
+
+/* line 28, ../IndeVets/src/sass/_general.sass */
+* .menu__link {
+  margin-left: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: #284854;
+  transition: 0.3s all;
+}
+
+/* line 35, ../IndeVets/src/sass/_general.sass */
+* .menu__link:hover {
+  color: #7FFF00;
+}
+
+/* line 37, ../IndeVets/src/sass/_general.sass */
+* .menu__link:active {
+  color: orange;
+}
+
+/* line 39, ../IndeVets/src/sass/_general.sass */
+* .menu__button {
+  padding: 4px 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* line 47, ../IndeVets/src/sass/_general.sass */
+* .menu__button:hover {
+  color: #7FFF00;
+  border-color: #7FFF00;
+  font-size: 102%;
+}
+
+/* line 51, ../IndeVets/src/sass/_general.sass */
+* .menu__button:active {
+  color: orange;
+  border-color: orange;
+}
+
+/* line 54, ../IndeVets/src/sass/_general.sass */
+* .subheader {
+  padding: 120px 0;
+}
+
+/* line 56, ../IndeVets/src/sass/_general.sass */
+* .subheader__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 60, ../IndeVets/src/sass/_general.sass */
+* .subheader__img {
+  max-width: 314px;
+  width: 100%;
+}
+
+/* line 63, ../IndeVets/src/sass/_general.sass */
+* .subheader__descr {
+  width: 712px;
+}
+
+/* line 65, ../IndeVets/src/sass/_general.sass */
+* .subheader__title {
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 102px;
+  color: #8BC441;
+}
+
+/* line 70, ../IndeVets/src/sass/_general.sass */
+* .subheader__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  width: 542px;
+  margin-top: 60px;
+}
+
+/* line 77, ../IndeVets/src/sass/_general.sass */
+* .promo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -80px;
+}
+
+/* line 81, ../IndeVets/src/sass/_general.sass */
+* .promo__block {
+  display: flex;
+  align-items: center;
+  padding: 45px 30px;
+  width: 506px;
+  background: #F4F6F0;
+  border-radius: 4px;
+}
+
+/* line 88, ../IndeVets/src/sass/_general.sass */
+* .promo__img {
+  max-width: 119px;
+  width: 100%;
+}
+
+/* line 91, ../IndeVets/src/sass/_general.sass */
+* .promo__descr {
+  margin-left: 38px;
+}
+
+/* line 93, ../IndeVets/src/sass/_general.sass */
+* .promo__title {
+  font-weight: 400;
+  font-size: 37px;
+  color: #8BC441;
+}
+
+/* line 97, ../IndeVets/src/sass/_general.sass */
+* .promo__text {
+  width: 188px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #60C1BD;
+  margin-top: 9px;
+}
+
+/* line 104, ../IndeVets/src/sass/_general.sass */
+* .works {
+  padding: 174px 0 80px 0;
+}
+
+/* line 106, ../IndeVets/src/sass/_general.sass */
+* .works__block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 80px;
+}
+
+/* line 111, ../IndeVets/src/sass/_general.sass */
+* .works__img {
+  max-width: 285px;
+  width: 100%;
+}
+
+/* line 114, ../IndeVets/src/sass/_general.sass */
+* .works__descr {
+  width: 510px;
+}
+
+/* line 116, ../IndeVets/src/sass/_general.sass */
+* .works__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #798B56;
+}
+
+/* line 118, ../IndeVets/src/sass/_general.sass */
+* .works__subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #8BC441;
+  margin-top: 10px;
+}
+
+/* line 120, ../IndeVets/src/sass/_general.sass */
+* .works__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #284854;
+  margin-top: 10px;
+}
+
+/* line 122, ../IndeVets/src/sass/_general.sass */
+* .title {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: #60C1BD;
+}
+
+/* line 127, ../IndeVets/src/sass/_general.sass */
+* .subtitle {
+  font-weight: 700;
+  font-size: 55px;
+  text-align: center;
+  color: #284854;
+  margin: 5px 0 110px;
+}
+
+/* line 133, ../IndeVets/src/sass/_general.sass */
+* .mission {
+  background: #F4F6F0;
+  padding: 78px 0 127px;
+}
+
+/* line 136, ../IndeVets/src/sass/_general.sass */
+* .mission__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 140, ../IndeVets/src/sass/_general.sass */
+* .mission__img {
+  max-width: 450px;
+  width: 100%;
+}
+
+/* line 143, ../IndeVets/src/sass/_general.sass */
+* .mission__descr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 504px;
+}
+
+/* line 148, ../IndeVets/src/sass/_general.sass */
+* .mission__descr .subtitle {
+  margin: 5px 0 31px;
+}
+
+/* line 150, ../IndeVets/src/sass/_general.sass */
+* .mission__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #284854;
+}
+
+/* line 155, ../IndeVets/src/sass/_general.sass */
+* .mission__button {
+  margin-top: 50px;
+  padding: 8px 5px;
+  background-color: transparent;
+  border: 1px solid #60C1BD;
+  font-weight: 400;
+  font-size: 16px;
+  color: #60C1BD;
+  cursor: pointer;
+}
+
+/* line 164, ../IndeVets/src/sass/_general.sass */
+* .mission__button:hover {
+  color: #8BC441;
+  border-color: #8BC441;
+}
+
+/* line 167, ../IndeVets/src/sass/_general.sass */
+* .mission__button:active {
+  color: orange;
+  border-color: orange;
+}
+
+/* line 170, ../IndeVets/src/sass/_general.sass */
+* .sounds {
+  padding: 86px 0;
+  background: #8BC441;
+}
+
+/* line 173, ../IndeVets/src/sass/_general.sass */
+* .sounds__block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 177, ../IndeVets/src/sass/_general.sass */
+* .sounds__img {
+  max-width: 240px;
+  width: 100%;
+}
+
+/* line 180, ../IndeVets/src/sass/_general.sass */
+* .sounds__descr {
+  width: 581px;
+}
+
+/* line 182, ../IndeVets/src/sass/_general.sass */
+* .sounds__title {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+
+/* line 187, ../IndeVets/src/sass/_general.sass */
+* .sounds__sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+
+/* line 191, ../IndeVets/src/sass/_general.sass */
+* .sounds__text {
+  width: 250px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+/* line 197, ../IndeVets/src/sass/_general.sass */
+* .footer {
+  padding: 45px 0;
+}
+
+/* line 199, ../IndeVets/src/sass/_general.sass */
+* .footer__wrapper {
+  display: flex;
+}
+
+/* line 201, ../IndeVets/src/sass/_general.sass */
+* .footer__block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+/* line 205, ../IndeVets/src/sass/_general.sass */
+* .footer__title {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #284854;
+  margin-bottom: 25px;
+}
+
+/* line 212, ../IndeVets/src/sass/_general.sass */
+* .footer__text {
+  padding-bottom: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 35px;
+  color: #60C1BD;
+}
+
+/* line 218, ../IndeVets/src/sass/_general.sass */
+* .footer__link {
+  color: #60C1BD;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+/* line 222, ../IndeVets/src/sass/_general.sass */
+* .footer__link:hover {
+  color: #7FFF00;
+}
+
+/* line 224, ../IndeVets/src/sass/_general.sass */
+* .footer__link:active {
+  color: orange;
+}
+
+/* line 226, ../IndeVets/src/sass/_general.sass */
+* .footer__links {
+  margin-left: 110px;
+}
+
+/* line 229, ../IndeVets/src/sass/_general.sass */
+* .footer__row {
+  display: flex;
+  margin-top: 60px;
+}
+
+/* line 232, ../IndeVets/src/sass/_general.sass */
+* .footer__subtitle {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #284854;
+}
+
+/* line 237, ../IndeVets/src/sass/_general.sass */
+* .footer__img {
+  max-width: 230px;
+  height: 210px;
+  width: 100%;
+}
+
+/* line 241, ../IndeVets/src/sass/_general.sass */
+* .footer__address {
+  margin-left: 55px;
+}
+
+/* line 243, ../IndeVets/src/sass/_general.sass */
+* .footer__call {
+  margin-top: 25px;
+  line-height: 5px;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../IndeVets/src/sass/_media.sass */
+  * .subheader__title {
+    font-size: 68px;
+  }
+  /* line 5, ../IndeVets/src/sass/_media.sass */
+  * .promo {
+    justify-content: space-evenly;
+  }
+  /* line 7, ../IndeVets/src/sass/_media.sass */
+  * .promo__block {
+    width: 450px;
+  }
+  /* line 10, ../IndeVets/src/sass/_media.sass */
+  * .mission__descr {
+    width: 405px;
+  }
+  /* line 13, ../IndeVets/src/sass/_media.sass */
+  * .footer__links {
+    margin-left: 85px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 17, ../IndeVets/src/sass/_media.sass */
+  * .menu__link {
+    margin-left: 25px;
+  }
+  /* line 20, ../IndeVets/src/sass/_media.sass */
+  * .subheader__title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  /* line 23, ../IndeVets/src/sass/_media.sass */
+  * .subheader__text {
+    width: 425px;
+  }
+  /* line 25, ../IndeVets/src/sass/_media.sass */
+  * .promo {
+    flex-wrap: wrap;
+  }
+  /* line 27, ../IndeVets/src/sass/_media.sass */
+  * .promo__block {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+  /* line 30, ../IndeVets/src/sass/_media.sass */
+  * .works {
+    padding: 45px 0 80px 0;
+  }
+  /* line 32, ../IndeVets/src/sass/_media.sass */
+  * .works__descr {
+    width: 350px;
+  }
+  /* line 35, ../IndeVets/src/sass/_media.sass */
+  * .mission__img {
+    max-width: 330px;
+  }
+  /* line 37, ../IndeVets/src/sass/_media.sass */
+  * .mission__descr {
+    width: 360px;
+  }
+  /* line 40, ../IndeVets/src/sass/_media.sass */
+  * .sounds__img {
+    max-width: 200px;
+  }
+  /* line 42, ../IndeVets/src/sass/_media.sass */
+  * .sounds__descr {
+    width: 430px;
+  }
+  /* line 44, ../IndeVets/src/sass/_media.sass */
+  * .sounds__title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  /* line 47, ../IndeVets/src/sass/_media.sass */
+  * .sounds__text {
+    width: 195px;
+    font-size: 15px;
+  }
+  /* line 51, ../IndeVets/src/sass/_media.sass */
+  * .footer__title {
+    font-size: 12px;
+  }
+  /* line 53, ../IndeVets/src/sass/_media.sass */
+  * .footer__text {
+    font-size: 12px;
+  }
+  /* line 55, ../IndeVets/src/sass/_media.sass */
+  * .footer__links {
+    margin-left: 25px;
+  }
+  /* line 57, ../IndeVets/src/sass/_media.sass */
+  * .footer__text {
+    margin-right: 25px;
+  }
+  /* line 59, ../IndeVets/src/sass/_media.sass */
+  * .footer__row {
+    margin-top: 25px;
+  }
+  /* line 61, ../IndeVets/src/sass/_media.sass */
+  * .footer__img {
+    max-width: 150px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 65, ../IndeVets/src/sass/_media.sass */
+  * nav {
+    padding: 15px 0;
+    position: fixed;
+    transform: translateY(0);
+  }
+  /* line 70, ../IndeVets/src/sass/_media.sass */
+  * .menu__list {
+    display: none;
+  }
+  /* line 72, ../IndeVets/src/sass/_media.sass */
+  * .menu__button {
+    display: none;
+  }
+  /* line 74, ../IndeVets/src/sass/_media.sass */
+  * .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+  }
+  /* line 81, ../IndeVets/src/sass/_media.sass */
+  * .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 5px;
+  }
+  /* line 88, ../IndeVets/src/sass/_media.sass */
+  * .subheader__block {
+    flex-direction: column;
+  }
+  /* line 90, ../IndeVets/src/sass/_media.sass */
+  * .subheader__descr {
+    width: 576px;
+    text-align: center;
+  }
+  /* line 93, ../IndeVets/src/sass/_media.sass */
+  * .subheader__title {
+    font-size: 35px;
+  }
+  /* line 95, ../IndeVets/src/sass/_media.sass */
+  * .subheader__text {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  /* line 98, ../IndeVets/src/sass/_media.sass */
+  * .subheader__img {
+    margin-top: 60px;
+    max-width: 230px;
+  }
+  /* line 102, ../IndeVets/src/sass/_media.sass */
+  * .promo__block {
+    width: 420px;
+  }
+  /* line 104, ../IndeVets/src/sass/_media.sass */
+  * .title {
+    font-size: 18px;
+  }
+  /* line 106, ../IndeVets/src/sass/_media.sass */
+  * .subtitle {
+    font-size: 38px;
+    margin: 5px auto;
+  }
+  /* line 110, ../IndeVets/src/sass/_media.sass */
+  * .works__block {
+    flex-direction: column;
+  }
+  /* line 112, ../IndeVets/src/sass/_media.sass */
+  * .works__block .next {
+    order: -1;
+  }
+  /* line 114, ../IndeVets/src/sass/_media.sass */
+  * .works__img {
+    max-width: 220px;
+  }
+  /* line 116, ../IndeVets/src/sass/_media.sass */
+  * .works__descr {
+    width: 450px;
+  }
+  /* line 118, ../IndeVets/src/sass/_media.sass */
+  * .works__title {
+    margin-top: 20px;
+  }
+  /* line 120, ../IndeVets/src/sass/_media.sass */
+  * .works__subtitle {
+    font-size: 32px;
+  }
+  /* line 122, ../IndeVets/src/sass/_media.sass */
+  * .mission {
+    padding: 40px 0 70px;
+  }
+  /* line 124, ../IndeVets/src/sass/_media.sass */
+  * .mission__block {
+    flex-direction: column;
+  }
+  /* line 126, ../IndeVets/src/sass/_media.sass */
+  * .mission__img {
+    max-width: 300px;
+  }
+  /* line 128, ../IndeVets/src/sass/_media.sass */
+  * .mission__descr {
+    width: 450px;
+    margin-top: 50px;
+    align-items: center;
+  }
+  /* line 132, ../IndeVets/src/sass/_media.sass */
+  * .sounds {
+    padding: 55px 0;
+  }
+  /* line 134, ../IndeVets/src/sass/_media.sass */
+  * .sounds__block {
+    flex-direction: column;
+  }
+  /* line 136, ../IndeVets/src/sass/_media.sass */
+  * .sounds__descr {
+    margin-top: 30px;
+  }
+  /* line 138, ../IndeVets/src/sass/_media.sass */
+  * .sounds__title {
+    text-align: center;
+  }
+  /* line 140, ../IndeVets/src/sass/_media.sass */
+  * .sounds__sub {
+    margin-top: 20px;
+  }
+  /* line 143, ../IndeVets/src/sass/_media.sass */
+  * .footer__img {
+    display: none;
+  }
+  /* line 145, ../IndeVets/src/sass/_media.sass */
+  * .footer__block {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  /* line 148, ../IndeVets/src/sass/_media.sass */
+  * .footer__address {
+    margin: 0;
+  }
+  /* line 150, ../IndeVets/src/sass/_media.sass */
+  * .footer__call {
+    margin: 0;
+    line-height: 0;
+  }
+  /* line 153, ../IndeVets/src/sass/_media.sass */
+  * .footer__row {
+    transform: translateX(28%);
+  }
+  /* line 155, ../IndeVets/src/sass/_media.sass */
+  * .footer__subtitle {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 159, ../IndeVets/src/sass/_media.sass */
+  * .menu__logo {
+    display: none;
+  }
+  /* line 161, ../IndeVets/src/sass/_media.sass */
+  * nav {
+    padding: 20px 0;
+  }
+  /* line 164, ../IndeVets/src/sass/_media.sass */
+  * .subheader__descr {
+    width: 320px;
+  }
+  /* line 166, ../IndeVets/src/sass/_media.sass */
+  * .subheader__title {
+    font-size: 31px;
+    line-height: 45px;
+  }
+  /* line 169, ../IndeVets/src/sass/_media.sass */
+  * .subheader__text {
+    width: 275px;
+    font-size: 14px;
+  }
+  /* line 172, ../IndeVets/src/sass/_media.sass */
+  * .subheader__img {
+    max-width: 170px;
+    margin-top: 35px;
+  }
+  /* line 175, ../IndeVets/src/sass/_media.sass */
+  * .promo {
+    justify-content: flex-star;
+  }
+  /* line 177, ../IndeVets/src/sass/_media.sass */
+  * .promo__block {
+    flex-direction: column;
+    padding: 25px 30px;
+    border-radius: 10px;
+    width: 250px;
+  }
+  /* line 182, ../IndeVets/src/sass/_media.sass */
+  * .promo__img {
+    max-width: 100px;
+  }
+  /* line 184, ../IndeVets/src/sass/_media.sass */
+  * .promo__descr {
+    width: 190px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 188, ../IndeVets/src/sass/_media.sass */
+  * .promo__title {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+  /* line 191, ../IndeVets/src/sass/_media.sass */
+  * .promo__text {
+    font-size: 17px;
+  }
+  /* line 194, ../IndeVets/src/sass/_media.sass */
+  * .works__img {
+    max-width: 160px;
+  }
+  /* line 196, ../IndeVets/src/sass/_media.sass */
+  * .works__block {
+    margin-top: 50px;
+  }
+  /* line 198, ../IndeVets/src/sass/_media.sass */
+  * .works__title {
+    font-size: 17px;
+  }
+  /* line 200, ../IndeVets/src/sass/_media.sass */
+  * .works__subtitle {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  /* line 203, ../IndeVets/src/sass/_media.sass */
+  * .works__descr {
+    width: 250px;
+  }
+  /* line 205, ../IndeVets/src/sass/_media.sass */
+  * .title {
+    font-size: 15px;
+  }
+  /* line 207, ../IndeVets/src/sass/_media.sass */
+  * .subtitle {
+    font-size: 23px;
+  }
+  /* line 210, ../IndeVets/src/sass/_media.sass */
+  * .mission__img {
+    max-width: 200px;
+  }
+  /* line 212, ../IndeVets/src/sass/_media.sass */
+  * .mission__descr {
+    width: 275px;
+  }
+  /* line 214, ../IndeVets/src/sass/_media.sass */
+  * .mission__text {
+    font-size: 15px;
+  }
+  /* line 216, ../IndeVets/src/sass/_media.sass */
+  * .mission .title {
+    font-size: 20px;
+  }
+  /* line 218, ../IndeVets/src/sass/_media.sass */
+  * .mission .subtitle {
+    font-size: 30px;
+  }
+  /* line 221, ../IndeVets/src/sass/_media.sass */
+  * .sounds__img {
+    max-width: 125px;
+  }
+  /* line 223, ../IndeVets/src/sass/_media.sass */
+  * .sounds__descr {
+    width: 320px;
+  }
+  /* line 225, ../IndeVets/src/sass/_media.sass */
+  * .sounds__title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  /* line 228, ../IndeVets/src/sass/_media.sass */
+  * .sounds__sub {
+    justify-content: space-around;
+  }
+  /* line 230, ../IndeVets/src/sass/_media.sass */
+  * .sounds__text {
+    width: 120px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+  /* line 236, ../IndeVets/src/sass/_media.sass */
+  * .footer__block {
+    width: 50%;
+    justify-content: flex-end;
+  }
+  /* line 239, ../IndeVets/src/sass/_media.sass */
+  * .footer__links {
+    margin: 0;
+    transform: translateX(106%) translateY(-78%);
+  }
+  /* line 242, ../IndeVets/src/sass/_media.sass */
+  * .footer__links .footer_text {
+    padding-bottom: 0;
+  }
+  /* line 244, ../IndeVets/src/sass/_media.sass */
+  * .footer__title {
+    margin-bottom: 15px;
+  }
+  /* line 246, ../IndeVets/src/sass/_media.sass */
+  * .footer__text {
+    padding-bottom: 10px;
+  }
+  /* line 248, ../IndeVets/src/sass/_media.sass */
+  * .footer__row {
+    flex-direction: column;
+    transform: translateX(108%) translateY(-82%);
+  }
+  /* line 251, ../IndeVets/src/sass/_media.sass */
+  * .footer__address {
+    transform: translateX(-96%) translateY(31%);
+    margin: 0;
+  }
+  /* line 254, ../IndeVets/src/sass/_media.sass */
+  * .footer__call {
+    margin: 0;
+    line-height: 0;
+  }
+  /* line 257, ../IndeVets/src/sass/_media.sass */
+  * .footer__subtitle {
+    margin: 0 auto;
+    transform: translateX(70%) translateY(-400%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
