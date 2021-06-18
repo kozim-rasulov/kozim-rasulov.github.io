@@ -158,6 +158,8 @@ footer {
     background: #000;
     padding: 30px 0;
 }
-@media (max-width: 575px)
-	nav 
-		height: 130px
+@media (max-width: 575px) {
+    nav {
+	height:130px;
+	}
+}
