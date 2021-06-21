@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    background: darkkhaki;
+}
+.heading {
+    background: olivedrab;
+    color: greenyellow;
+    text-align: center;
+    padding: 15px;
+}
+p {
+    margin: 20px auto;
+    padding: 15px;
+    background: skyblue;
+    color: indigo;
+    width: 800px;
+    border: 4px darkmagenta solid;
+    border-radius: 10px;
+    text-align: center;
+}
+a {
+    color: indigo;
+}
+.link {
+    line-height: 35px;
+    list-style-type: none;
+    text-align: center;
+}
+.bugatti {
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.bugatti_logo {
+    display: block;
+    width: 30%;
+    margin-top: 20px;
+}
+#bottom_link {
+    margin-left: 15px;
+    padding-bottom: 15px;
+}

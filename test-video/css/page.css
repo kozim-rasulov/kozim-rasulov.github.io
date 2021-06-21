@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    background: cornflowerblue;
+}
+.heading {
+    background: olivedrab;
+    color: greenyellow;
+    text-align: center;
+    padding: 15px;
+}
+p {
+    margin: 20px auto;
+    padding: 15px;
+    background: skyblue;
+    color: indigo;
+    width: 800px;
+    border: 4px darkmagenta solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.youtube,.bugatti_mp4,.maps {
+    display: block;
+    margin: 20px auto;
+}
