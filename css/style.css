@@ -150,11 +150,11 @@ h1 {
     font-size: 18px;
     font-weight: 700;
     border-radius: 20px;
+    border: 2px solid #fff;
 }
 .card a:hover {
     background-color: transparent;
     color: #fff;
-    border: 2px solid #fff;
 }
 
     /* Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
