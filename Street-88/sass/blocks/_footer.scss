@@ -1,0 +1,36 @@
+.footer {
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo-img {
+        margin-top: 30px;
+    }
+    &__phone {
+        font-family: $fontAlt;
+        font-size: 20px;
+    }
+    &-nav {
+        margin: 81px 0;
+        &__menu {
+            display: flex;
+            justify-content: center;
+        }
+        &__link {
+            margin: 0 10px;
+            font-family: $fontAlt;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+}
+.development {
+    font-family: $fontAlt;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 19px 0;
+    background: #1A3406;
+}
