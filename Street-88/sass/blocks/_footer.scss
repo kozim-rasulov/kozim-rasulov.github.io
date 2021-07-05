@@ -1,0 +1,33 @@
+.footer {
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+    padding-top: 30px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__phone {
+        font-family: $fontAlt;
+        font-weight: 700;
+        font-size: 20px;
+    }  
+    &__menu {
+        display: flex;
+        justify-content: center;
+        margin: 81px 0;
+        &-link {
+            margin: 0 10px;
+            font-family: $fontAlt;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+}
+.development {
+    font-family: $fontAlt;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 19px 0;
+    background: #1A3406;
+}

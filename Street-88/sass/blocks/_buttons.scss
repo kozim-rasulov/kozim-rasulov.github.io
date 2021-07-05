@@ -1,0 +1,18 @@
+.button {
+    max-width: 255px;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px; 
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+}
+*::-webkit-scrollbar-thumb {
+    background: $green;
+    border-radius: 3px;
+}

@@ -1,0 +1,37 @@
+@import 'base/variables';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: $white;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Raleway';
+    color: $white;
+    background: $bodyBg;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/top';
+@import 'blocks/logo';
+@import 'blocks/header';
+@import 'blocks/banner';
+@import 'blocks/catalog';
+@import 'blocks/branches';
+@import 'blocks/footer';
+
+@import 'blocks/about';
+
+@import 'base/media';

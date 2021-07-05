@@ -1,0 +1,253 @@
+.catalog {
+    margin: 48px 0 50px;
+    &__tabs {
+        display: flex;
+        background: #292929;
+        box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);
+        padding: 0 15px;
+    }
+    &__tab {
+        display: inline-block;
+        position: relative;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 20px 6px;
+        margin-right: 25px;
+        cursor: pointer;
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            height: 1px;
+            width: 0%;
+            background: #fff;
+            transition: 500ms;
+        }
+        &_active::after {
+            width: 100%;
+            left: 0;
+        }
+    }
+    &__content {
+        background: #393636;
+        padding: 15px;
+        display: none;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        justify-content: space-between;
+        gap: 30px;
+        &_active {
+            display: grid;
+        }
+    }
+    &-item {
+        background: $bodyBg;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        padding: 15px;
+        &__link {
+            display: block;
+            position: relative;
+            height: 325px;
+            background: url(../img/menu_bg/main.jpg) center / cover no-repeat;
+            &_king-boxes {
+                background: url(../img/menu_bg/king-boxes.jpg) center / cover no-repeat;
+            }
+            &_burgers {
+                background: url(../img/menu_bg/burgers.jpg) center / cover no-repeat;
+            }
+            &_rolls {
+                background: url(../img/menu_bg/rolls.jpg) center / cover no-repeat;
+            }
+            &_beverages {
+                background: url(../img/menu_bg/beverages.jpg) center / cover no-repeat;
+            }
+        }
+        &__img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        &__buy {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: 300ms;
+            &:hover {
+                background: rgba(105, 207, 23, 0.9);
+                opacity: 1;
+            }
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 15px;
+            transition: 0.5s all;
+        }
+        &__title {
+            font-size: 19px;
+            line-height: 30px;
+            padding: 0 5px;
+        }
+        &__descr {
+            font-size: 19px;
+            line-height: 25px;
+            margin-top: 15px;
+        }
+        &-cash {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 108px;
+            width: 100%;
+            color: $kingKombo;
+            font-family: $fontAlt;
+            font-weight: 700;
+            background-color: transparent;
+            min-height: 42px;
+            &_king-box {
+                color: $kingBox;
+            }
+            &_burger {
+                color: $burger;
+            }
+            &_rolls {
+                color: $rolls;
+            }
+            &_beverages {
+                color: $beverages;
+            }
+            &_desserts {
+                color: $desserts;
+            }
+            &__price {
+                width: 100%;
+                border-radius: 4px;
+                padding: 4px 15px;
+                border: 2px solid $kingKombo;
+                &_king-box {
+                    border-color: $kingBox;
+                }
+                &_burger {
+                    border-color: $burger;
+                }
+                &_rolls {
+                    border-color: $rolls;
+                }
+                &_beverages {
+                    border-color: $beverages;
+                }
+                &_desserts {
+                    border-color: $desserts;
+                }
+                &-row {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: 1s all;
+                }
+            }
+            &__value {
+                font-size: 20px;
+            }
+            &__column {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-left: 5px;
+            }
+            &__value-top {
+                font-size: 12px;
+            }
+            &__divider {
+                width: 100%;
+                height: 1px;
+                background: $kingKombo;
+                &_king-box {
+                    background: $kingBox;
+                }
+                &_burger {
+                    background: $burger;
+                }
+                &_rolls {
+                    background: $rolls;
+                }
+                &_beverages {
+                    background: $beverages;
+                }
+                &_desserts {
+                    background: $desserts;
+                }
+            }
+            &__currency {
+                font-size: 12px;
+            }
+            &__symbol {
+                position: relative;
+                margin-left: 5px;
+            }
+            &__plus {
+                font-weight: 400;
+                font-size: 30px;
+                transition: 0.5s all;
+            }
+            &__basket {
+                opacity: 0;
+                max-width: 25px;
+                position: absolute;
+                top: 7px;
+                left: 50%;
+                font-size: 25px;
+                transform: translateX(-50%);
+                transition: 0.5s all;
+            }
+        }
+        &:hover {
+            .catalog-item-cash {
+                border-radius: 4px;
+                padding: 0px 15px 0px 35px;
+                border: 2px solid $kingKombo;
+                &_king-box {
+                    border-color: $kingBox;
+                }
+                &_burger {
+                    border-color: $burger;
+                }
+                &_rolls {
+                    border-color: $rolls;
+                }
+                &_beverages {
+                    border-color: $beverages;
+                }
+                &_desserts {
+                    border-color: $desserts;
+                }
+            }
+            .catalog-item-cash__price {
+                border-radius: 0;
+                padding: 0;
+                border: none;
+                opacity: 0;
+            }
+            .catalog-item-cash__price-row {
+                opacity: 0;
+            }
+            .catalog-item-cash__plus {
+                transform: translateX(-52px) rotateX(360deg);
+            }
+            .catalog-item-cash__basket {
+                opacity: 1;
+                transform: translateX(-42px);
+            }
+        }
+    }
+}

@@ -1,0 +1,198 @@
+@media (max-width: 1200px) {
+    .catalog {
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+@media (max-width: 767px) {
+    .nav {
+        height: 50px;
+        &__content {
+            height: 100%;
+        }
+    }
+    .logo {
+        width: 165px;
+        font-size: 25px;
+        &_display {
+            display: none;
+        }
+    }
+    .menu {
+        position: fixed;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		top: 0;
+		left: -100%;
+		width: 88%;
+		height: 100vh;
+		padding: 20px 15px;
+		background-color: rgba(0,0,0, .8);
+		transition: 0.6s all;
+		&_active { 
+			left: 0;
+        }
+		&__page {
+			padding-right: 0;
+			border: none;
+            width: 100%;
+            text-align: center;
+        }
+		&__link {
+			font-size: 20px;
+        }
+    }
+	.hamburger {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 26px;
+		height: 12px;
+		span {
+			display: block;
+			height: 2px;
+			width: 100%;
+			background-color: #fff; 
+			margin-bottom: 4px;
+			transition: 0.5s all;
+        }
+		&_active {
+			span { 
+				margin-bottom: -2px;
+				&:nth-child(1) {
+					transform: translateY(3px) rotate(-45deg);
+                }
+				&:nth-child(2) {
+					display: none;
+                }
+				&:nth-child(3) {
+					transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }
+    }
+    .banner {
+        &__title {
+            font-size: 64px;
+        }
+        &__subtitle {
+            font-size: 34px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+        &__box {
+            flex-direction: column;
+        }
+        &__price {
+            margin-bottom: 30px;
+        }
+    }
+    .button {
+        max-width: 280px;
+    }
+    .catalog {
+        &__tab {
+            font-size: 11px;
+        }
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        &-item {
+            &__link {
+                height: 233px;
+            }
+            &__title {
+                font-size: 15px;
+            }
+            &__price {
+                font-size: 16px;
+            }
+            &__descr {
+                font-size: 15px;
+            }
+        }
+    }
+    .branches {
+        &__title {
+            font-size: 35px;
+        }
+    }
+}
+@media (max-width: 550px) {
+    .top {
+        &__logo {
+            &-img {
+                max-height: 18px;
+            }
+            &-descr {
+                font-size: 10px;
+            }
+        }
+        &__menu {
+            &-link {
+                padding: 20px 0 20px 20px;
+                font-size: 10px;
+            }
+        }
+    }
+    .logo {
+        margin-bottom: 50px;
+        
+    }
+    .banner {
+        &__title {
+            font-size: 46px;
+        }
+        &__subtitle {
+            font-size: 28px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        &__price {
+            font-size: 28px;
+            padding: 24px 0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .button {
+        max-width: none;
+    }
+    .catalog {
+        &__tabs {
+            align-items: center;
+        }
+        &__tab {
+            margin-right: 3px;
+            font-size: 9px;
+        }
+        &__content {
+            justify-content: center;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        &-item {
+            &__link {
+                height: 290px;
+            }
+        }
+    }
+    .branches {
+        &__title {
+            font-size: 25px;
+        }
+    }
+    .footer {
+        &__box {
+            flex-direction: column;
+        }
+    }
+    .development {
+        font-size: 13px;
+    }
+}

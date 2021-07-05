@@ -1,0 +1,13 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 53px;
+    background: rgba(10, 148, 24, 0.75);
+    border: 4px solid #06600F;
+    border-radius: 4px;
+    font-family: $fontAlt;
+    font-weight: 700;
+    font-size: 36px;
+}
